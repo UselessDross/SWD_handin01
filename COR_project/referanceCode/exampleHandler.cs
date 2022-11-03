@@ -8,22 +8,42 @@ namespace referanceCode
 {
     class exampleHandler : AbstractHandler
     {
-        private string _subject;
-        public exampleHandler(string subject)
+        public string LinkName; //<-- not nessesary
+        private string _subject; //<-- not nessesary
+        private int num_;
+        public exampleHandler(string subject, string linkName,int num) //<-- not nessesary, all just for the porpus of explaning the pattern
         {
             _subject = subject;
+            LinkName = linkName;
+            num_ = num;
         }
 
         public override object Handle(object request)
         {
-            if((request as string) == _subject)
+            Console.SetCursorPosition(num_*10, 4);                 //<-- not nessesary
+            Console.Write($"[{LinkName}]->");                      //<-- not nessesary
+            Console.SetCursorPosition(0, 7);                       //<-- not nessesary
+            if ((request as string) == _subject) 
             {
-                return $"This chain handles {request.ToString()}\n";
+                Console.SetCursorPosition(num_ * 10, 3);           //<-- not nessesary
+                Console.ForegroundColor = ConsoleColor.DarkYellow; //<-- not nessesary
+                Console.Write($"[{LinkName}]  ");                  //<-- not nessesary
+                Console.ForegroundColor = ConsoleColor.White;      //<-- not nessesary
+                Console.SetCursorPosition(((num_+1) * 10), 4);     //<-- not nessesary
+                Console.SetCursorPosition(0, 5);                   //<-- not nessesary
+                return $"This link, {LinkName} handles {request.ToString()}\n";
             }
             else
             {
+                CheckEnd(request);                                 //<-- not nessesary
+
                 return base.Handle(request);
             }
         }
+
+
+
+        
     }
+
 }

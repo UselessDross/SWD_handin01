@@ -8,7 +8,7 @@ namespace referanceCode
 {
     abstract class AbstractHandler : IHandler
     {
-        private IHandler _nextHandler;
+        private IHandler _nextHandler = null;
 
         public virtual object Handle(object request)
         {
@@ -21,13 +21,19 @@ namespace referanceCode
                 return null;
             }
         }
+        public void CheckEnd(object request) //<-- not nessesary
+        {
+            if (_nextHandler == null)
+            {
+                Console.WriteLine($"{request} Was not handled by any link of this chain");
+            }
+        }
+
 
         public IHandler SetNext(IHandler handler)
         {
             this._nextHandler = handler;
-            // Returning a handler from here will let us link handlers in a
-            // convenient way like this:
-            // monkey.SetNext(squirrel).SetNext(dog);
+      
             return handler;
         }
     }

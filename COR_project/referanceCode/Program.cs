@@ -5,9 +5,9 @@ class Program
     static void Main(string[] args)
     {
         // fun fact, the individual piexes of a chain are called links
-        var link01 = new exampleHandler("OBJ_alpha");
-        var link02 = new exampleHandler("OBJ_bravo");
-        var link03 = new exampleHandler("OBJ_charl");
+        var link01 = new exampleHandler("OBJ_alpha", "Link01",0);
+        var link02 = new exampleHandler("OBJ_bravo", "Link02",1);
+        var link03 = new exampleHandler("OBJ_charl", "Link03",2);
        
 
        //assempling the chain.
@@ -19,7 +19,8 @@ class Program
 
 
         Console.WriteLine(link01.Handle("OBJ_bravo"));
-        Console.WriteLine(link01.Handle("null"));
+        Console.WriteLine(link01.Handle("Hutson Sorce"));
       
     }
 }
+
