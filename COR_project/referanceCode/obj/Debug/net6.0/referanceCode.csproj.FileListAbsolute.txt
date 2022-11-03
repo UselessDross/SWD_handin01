@@ -1,0 +1,15 @@
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\bin\Debug\net6.0\referanceCode.exe
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\bin\Debug\net6.0\referanceCode.deps.json
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\bin\Debug\net6.0\referanceCode.runtimeconfig.json
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\bin\Debug\net6.0\referanceCode.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\bin\Debug\net6.0\referanceCode.pdb
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.csproj.AssemblyReference.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.GeneratedMSBuildEditorConfig.editorconfig
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.AssemblyInfoInputs.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.AssemblyInfo.cs
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.csproj.CoreCompileInputs.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\refint\referanceCode.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.pdb
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\referanceCode.genruntimeconfig.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\referanceCode\obj\Debug\net6.0\ref\referanceCode.dll
