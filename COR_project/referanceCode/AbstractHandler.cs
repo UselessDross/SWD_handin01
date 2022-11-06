@@ -25,7 +25,12 @@ namespace referanceCode
         {
             if (_nextHandler == null)
             {
-                Console.WriteLine($"{request} Was not handled by any link of this chain");
+                Console.Write(" The object '");
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.Write($"{request}");
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.Write("' was not handled by ANY link of this chain");
+
             }
         }
 

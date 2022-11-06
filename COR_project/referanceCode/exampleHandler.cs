@@ -22,7 +22,7 @@ namespace referanceCode
         {
             Console.SetCursorPosition(num_*10, 4);                 //<-- not nessesary
             Console.Write($"[{LinkName}]->");                      //<-- not nessesary
-            Console.SetCursorPosition(0, 7);                       //<-- not nessesary
+            Console.SetCursorPosition(0, 8);                       //<-- not nessesary
             if ((request as string) == _subject) 
             {
                 Console.SetCursorPosition(num_ * 10, 3);           //<-- not nessesary
