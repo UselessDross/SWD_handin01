@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="referanceCode.AbstractHandler">
+    <Position X="3" Y="3.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAgIAA=</HashCode>
+      <FileName>AbstractHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.1" />
+  </Class>
+  <Class Name="referanceCode.exampleHandler">
+    <Position X="3" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAEAAAACAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>exampleHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="referanceCode.IHandler">
+    <Position X="7.25" Y="3.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>IHandler.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
