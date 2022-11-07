@@ -1,0 +1,15 @@
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\bin\Debug\net6.0\COR_project.exe
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\bin\Debug\net6.0\COR_project.deps.json
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\bin\Debug\net6.0\COR_project.runtimeconfig.json
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\bin\Debug\net6.0\COR_project.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\bin\Debug\net6.0\COR_project.pdb
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.csproj.AssemblyReference.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.AssemblyInfoInputs.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.AssemblyInfo.cs
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.csproj.CoreCompileInputs.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\refint\COR_project.dll
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.pdb
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\COR_project.genruntimeconfig.cache
+C:\semesterFolders\SWD\SWD_Lab_ex\Lab02\SWD_COR_handin\COR_project\COR_project\obj\Debug\net6.0\ref\COR_project.dll
