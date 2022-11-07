@@ -30,7 +30,7 @@ namespace COR_project
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write($"{request}");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.Write("' was not handled by ANY managers or executives of this chain of comand");
+                Console.Write("' was not handled by ANY managers or executives of this chain of command");
             }
         }
 

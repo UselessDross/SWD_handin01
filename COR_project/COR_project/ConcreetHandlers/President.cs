@@ -19,7 +19,7 @@ namespace COR_project.ConcreetHandlers
             else
             { 
                 Console.WriteLine("'OOHHhh... I can't approve this!'");
-                Console.WriteLine("'BUUUT? If I Hold an extra boring executive meeting, that could have been an email'");
+                Console.WriteLine("'BUUUT? If I hold an extra boring executive meeting, that could have been an email'");
                 Console.WriteLine("'Then they won't blame ME for it. hehe.'");
                 return "MEETING!";
             }
