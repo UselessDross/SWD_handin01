@@ -14,12 +14,23 @@ public class Program
         Dia_Richad.SetNext(Vich_Pris).SetNext(Peter);
 
         // Generate and process purchase requests
+        Console.WriteLine("  new request ");
+        Console.WriteLine("");
         Purchase p = new Purchase(2034, 350.00, "Supplies");
         Console.WriteLine(   Dia_Richad.Handle(p));
         p = new Purchase(2035, 32590.10, "Project X");
+        Console.WriteLine("  new request ");
+        Console.WriteLine("");
         Console.WriteLine(Dia_Richad.Handle(p));
         p = new Purchase(2036, 122100.00, "Project Y");
+        Console.WriteLine("  new request ");
+        Console.WriteLine("");
         Console.WriteLine(Dia_Richad.Handle(p));
+
+        Console.ForegroundColor = ConsoleColor.White;
+
+       
+
         // Wait for user
         Console.ReadKey();
     }

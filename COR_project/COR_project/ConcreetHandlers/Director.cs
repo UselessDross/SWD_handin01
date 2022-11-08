@@ -10,10 +10,16 @@ namespace COR_project.ConcreetHandlers
     /* this class has been modified to better let the user understand what is happening*/
     class Director : AbstractApprover
     {
+        private int MAX_AMOUNT = 10000;
         public override object Handle(Purchase purchase_)
         {
-            if (purchase_.amount < 10000.0)
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.Write("{0} ", this.GetType().Name);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("exsamins request# {0}", purchase_.number);
+            if (purchase_.amount < MAX_AMOUNT)
             {
+
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write("{0} ", this.GetType().Name);
                 Console.ForegroundColor = ConsoleColor.White;
@@ -27,11 +33,11 @@ namespace COR_project.ConcreetHandlers
                 Console.WriteLine("'The purchase of this too high for me to approve'");
                 Console.WriteLine("'Better hand it over to the VicePresident'");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("");
                 Console.WriteLine("*sends request# {0} to the VicePresident*", purchase_.number);
-                Console.WriteLine("");
+
                 return base.Handle(purchase_);
             }
         }
+        
     }
 }
