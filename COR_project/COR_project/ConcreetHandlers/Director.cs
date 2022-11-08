@@ -28,7 +28,7 @@ namespace COR_project.ConcreetHandlers
                 Console.WriteLine("'Better hand it over to the VicePresident'");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("");
-                Console.WriteLine("*sends it to the VicePresident*");
+                Console.WriteLine("*sends request# {0} to the VicePresident*", purchase_.number);
                 Console.WriteLine("");
                 return base.Handle(purchase_);
             }

@@ -29,7 +29,7 @@ namespace COR_project.ConcreetHandlers
                     Console.WriteLine("'the president can have the choice to approve it or not.'");
                     Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("");
-                    Console.WriteLine("*sends it to the President*");
+                Console.WriteLine("*sends request# {0} to the President*", purchase_.number);
                 Console.WriteLine("");
                 return base.Handle(purchase_);
                 }
