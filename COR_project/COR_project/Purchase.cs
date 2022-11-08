@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace COR_project
 {
     /*example and general idea from: https://www.dofactory.com/net/chain-of-responsibility-design-pattern*/
-    /*class modified due to unnesassery compexity*/
+    /*class modified due to unnecessary complexity*/
     public class Purchase
     {
         public int    number  { get; set; }

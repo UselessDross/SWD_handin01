@@ -20,9 +20,9 @@ namespace COR_project.ConcreetHandlers
                 else
                 {
                     CheckEnd(purchase_);
-                    Console.WriteLine("'SHHHSSss... I am NOT taking taking responibility for this'");
-                    Console.WriteLine("'the presedent can have choose to approve it or not.'");
-                    Console.WriteLine("*sends it to the Presedent*");
+                    Console.WriteLine("'SHHHSSss... I am NOT taking responsibility for this'");
+                    Console.WriteLine("'the president can have the choice to approve it or not.'");
+                    Console.WriteLine("*sends it to the President*");
                     return base.Handle(purchase_);
                 }
             }

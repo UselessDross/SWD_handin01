@@ -19,9 +19,9 @@ namespace COR_project.ConcreetHandlers
             else
             {
                 CheckEnd(purchase_);
-                Console.WriteLine("'The purchase of this too high for me to aprove'");
+                Console.WriteLine("'The purchase of this too high for me to approve'");
                 Console.WriteLine("'Better hand it over to the VicePresident'");
-                Console.WriteLine("*sends it to the VicePresedent*");
+                Console.WriteLine("*sends it to the VicePresident*");
                 return base.Handle(purchase_);
             }
         }

@@ -21,7 +21,7 @@ namespace referanceCode
                 return null;
             }
         }
-        public void CheckEnd(object request) //<-- not nessesary
+        public void CheckEnd(object request) //<-- not necessary
         {
             if (_nextHandler == null)
             {
