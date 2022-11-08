@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rgvil\\OneDrive\\Dokumente\\ZHAW\\Semester 5 AU\\Software Design\\Mandatory Exercise\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj": {}
+    "C:\\semesterFolders\\SWD\\SWD_Lab_ex\\Lab02\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rgvil\\OneDrive\\Dokumente\\ZHAW\\Semester 5 AU\\Software Design\\Mandatory Exercise\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj": {
+    "C:\\semesterFolders\\SWD\\SWD_Lab_ex\\Lab02\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rgvil\\OneDrive\\Dokumente\\ZHAW\\Semester 5 AU\\Software Design\\Mandatory Exercise\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj",
+        "projectUniqueName": "C:\\semesterFolders\\SWD\\SWD_Lab_ex\\Lab02\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj",
         "projectName": "referanceCode",
-        "projectPath": "C:\\Users\\rgvil\\OneDrive\\Dokumente\\ZHAW\\Semester 5 AU\\Software Design\\Mandatory Exercise\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj",
-        "packagesPath": "C:\\Users\\rgvil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rgvil\\OneDrive\\Dokumente\\ZHAW\\Semester 5 AU\\Software Design\\Mandatory Exercise\\SWD_COR_handin\\COR_project\\referanceCode\\obj\\",
+        "projectPath": "C:\\semesterFolders\\SWD\\SWD_Lab_ex\\Lab02\\SWD_COR_handin\\COR_project\\referanceCode\\referanceCode.csproj",
+        "packagesPath": "C:\\Users\\Useless\\.nuget\\packages\\",
+        "outputPath": "C:\\semesterFolders\\SWD\\SWD_Lab_ex\\Lab02\\SWD_COR_handin\\COR_project\\referanceCode\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rgvil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Useless\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,14 +14,20 @@ namespace COR_project.ConcreetHandlers
         {
             if (purchase_.amount < 100000.0)
             {
-                return ("{0} approved request# {1}", this.GetType().Name, purchase_.number);
+
+                Console.ForegroundColor = ConsoleColor.DarkRed;
+                Console.Write("{0} ", this.GetType().Name);
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("approved request# {0}", purchase_.number);
+                return (" ");
             }
             else
-            { 
+            {
+                Console.ForegroundColor = ConsoleColor.DarkRed;
                 Console.WriteLine("'OOHHhh... I can't approve this!'");
                 Console.WriteLine("'BUUUT? If I hold an extra boring executive meeting, that could have been an email'");
                 Console.WriteLine("'Then they won't blame ME for it. hehe.'");
-                return "MEETING!";
+                return "MEETING!"; Console.ForegroundColor = ConsoleColor.White;
             }
         }
     }
